@@ -1,0 +1,6 @@
+test_scheduled:
+  cron: "*/1 * * * *"
+  class: MessageWorker
+  queue: "default"
+  description: "cron多重起動テスト用"
+
