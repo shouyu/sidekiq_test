@@ -39,4 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'sidekiq'
+gem 'sidekiq-cron'
 gem 'sinatra', '>= 1.3.0', :require => nil
